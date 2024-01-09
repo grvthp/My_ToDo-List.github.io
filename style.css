@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to right, #8e03eb, #fcb045);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+.container {
+  width: 380px;
+  background-color: aliceblue;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+h1 {
+  color: darkgrey;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3px;
+}
+
+.input {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid rgb(16, 144, 144);
+  outline: none;
+  border-radius: 8px;
+}
+
+.btn {
+  width: 64px;
+  height: 24px;
+  background: rgb(109, 82, 32);
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.content {
+  /* background-color: green; */
+  font-size: 14px;
+  color: whitesmoke;
+  margin-top: 15px;
+}
+
+.content ul li {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  text-align: center;
+  background-color: green;
+  padding: 10px 34px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.delete {
+  position: absolute;
+  right: 6%;
+  cursor: pointer;
+}
+
+.check_box {
+  position: absolute;
+  left: 12px;
+  cursor: pointer;
+}
